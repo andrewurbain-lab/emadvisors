@@ -21,7 +21,23 @@ document.querySelectorAll('[data-modal]').forEach((button) => {
 });
 
 document.querySelectorAll('dialog').forEach((dialog) => {
+  const closeDialog = () => {
+    if (typeof dialog.close === 'function') {
+      dialog.close();
+    } else {
+      dialog.removeAttribute('open');
+    }
+  };
+
+  dialog.querySelectorAll('.close').forEach((button) => {
+    button.addEventListener('click', (event) => {
+      event.preventDefault();
+      event.stopPropagation();
+      closeDialog();
+    });
+  });
+
   dialog.addEventListener('click', (event) => {
-    if (event.target === dialog) dialog.close();
+    if (event.target === dialog) closeDialog();
   });
 });
