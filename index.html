@@ -99,9 +99,9 @@
   <footer><span>EMA — Estate Management Advisors</span><span>Private Service Search &amp; Advisory</span></footer>
 
   <dialog id="client-modal">
-    <form method="dialog" class="dialog-card" name="client-consultation" data-netlify="true">
+    <form action="https://formspree.io/f/xrendolb" method="POST" class="dialog-card" name="client-consultation">
       <button class="close" value="cancel" aria-label="Close">×</button>
-      <p class="kicker">Confidential Consultation</p><h2>Begin a private conversation.</h2>
+      <input type="hidden" name="_subject" value="New confidential consultation inquiry">\n      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">\n      <p class="kicker">Confidential Consultation</p><h2>Begin a private conversation.</h2>
       <label>Name<input name="name" required></label>
       <label>Email<input type="email" name="email" required></label>
       <label>Telephone<input type="tel" name="telephone"></label>
