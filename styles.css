@@ -3,7 +3,7 @@
 @media(max-width:620px){.site-header{position:fixed;height:54px;background:rgba(35,31,27,.9);justify-content:flex-end;padding:0 18px}.menu-button{display:block;border:1px solid rgba(255,255,255,.55);color:#fff;background:none;text-transform:uppercase;padding:7px 10px;font:10px var(--serif)}.nav{display:none;position:fixed;top:54px;left:0;right:0;background:#332f2a;padding:20px;flex-direction:column;text-align:center;gap:17px}.nav.open{display:flex}.hero-visual{height:900px;background-position:48% top}.hero-content{top:145px}.hero-mark{font-size:68px}.hero-content h1{font-size:22px}.hero-subtitle{font-size:17px}.about-overlay{top:590px;padding:0 20px}.about-overlay h2{font-size:31px}.section{padding:50px 22px}.section-heading h2{font-size:31px}.process-grid{grid-template-columns:1fr}.process-grid article,.process-grid article:nth-child(even){border-right:0;min-height:auto;padding:22px 10px}.approach-layout{gap:28px}.approach-layout img{height:245px}.position-columns{grid-template-columns:1fr}.position-columns article{border-right:0;padding:18px 0}.position-columns h3{min-height:0;font-size:12px}.position-columns li{font-size:11px}.positions-layout img{height:330px}.contact-band{grid-template-columns:1fr}.contact-band article{padding:32px 24px}.contact-band article+article{border-left:0;border-top:1px solid #b8aa96}footer{flex-direction:column;gap:8px;text-align:center}.dialog-card{padding:35px 22px}}
 .hero-logo {
   display: block;
-  width: clamp(220px, 28vw, 360px);
+ width: clamp(300px, 36vw, 500px);
   height: auto;
   margin: 0 auto 12px;
   filter: brightness(0) invert(1) drop-shadow(0 1px 2px rgba(0,0,0,.35));
