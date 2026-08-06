@@ -14,3 +14,17 @@
     width: 300px;
   }
 }
+.hero-content {
+  width: min(94%, 900px);
+}
+
+.hero-logo {
+  width: min(88vw, 700px) !important;
+  max-width: none;
+}
+
+@media (max-width: 620px) {
+  .hero-logo {
+    width: min(92vw, 520px) !important;
+  }
+}
