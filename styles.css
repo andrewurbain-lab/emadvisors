@@ -28,3 +28,32 @@
     width: min(92vw, 520px) !important;
   }
 }
+/* Final hero layout */
+.hero-content {
+  top: 115px;
+  width: min(92%, 760px);
+}
+
+.hero-logo {
+  width: min(72vw, 520px) !important;
+  max-width: 520px;
+  margin: 0 auto 14px;
+}
+
+.about-overlay {
+  top: 700px;
+}
+
+@media (max-width: 620px) {
+  .hero-content {
+    top: 100px;
+  }
+
+  .hero-logo {
+    width: min(84vw, 400px) !important;
+  }
+
+  .about-overlay {
+    top: 620px;
+  }
+}
