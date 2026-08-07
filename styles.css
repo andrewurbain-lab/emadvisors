@@ -180,3 +180,9 @@
     font-size: 17px;
   }
 }
+@media (max-width: 620px) {
+  .hero-logo {
+    position: relative;
+    left: -4vw;
+  }
+}
