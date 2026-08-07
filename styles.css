@@ -186,3 +186,15 @@
     left: -4vw;
   }
 }
+.hero-shade {
+  background: rgba(18, 15, 12, 0.22);
+}
+
+.hero-visual:after {
+  background: linear-gradient(
+    to bottom,
+    rgba(15, 13, 10, 0.22),
+    rgba(15, 13, 10, 0.14) 50%,
+    rgba(15, 13, 10, 0.28)
+  );
+}
